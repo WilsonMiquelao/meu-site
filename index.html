@@ -1,216 +1,178 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifolio Responsivo | Wilson Miquelão </title>
-    <link rel="stylesheet" href="assets/css/style.css">
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
-    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Responsivo | Wilson Miquelão</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
 </head>
 <body>
-    <header>
-        <i class="fa-solid fa-bars" id="menu-icon"></i>
-        <nav class="navbar">
-            <a href="#home" class="active"> Home </a>
-            <a href="#services"> Servicos </a>
-            <a href="#skills"> Habilidades </a>
-            <a href="#education"> Educação </a>
-            <a href="#contact"> Contato </a>
-        </nav>
-    </header>
+  <!-- Cabeçalho e Navbar -->
+  <header>
+    <div class="logo"></div>
+    <i class="fa-solid fa-bars" id="menu-icon"></i>
+    <nav class="navbar">
+      <a href="#home" class="active">Home</a>
+      <a href="#services">Serviços</a>
+      <a href="#skills">Habilidades</a>
+      <a href="#education">Educação</a>
+      <a href="#contact">Contato</a>
+    </nav>
+  </header>
 
-    <section class="home" id="home">
-        <div class="home-img">
-            <img src="assets/image/img1.png" alt="">
+  <!-- Seção Home -->
+  <<section class="home" id="home">
+    <div class="home-img">
+      <img src="assets/image/img1.jpg" alt="Imagem de perfil">
+    </div>
+    <div class="home-content">
+      <h1>Seja bem-vindo! Meu nome é <span>Wilson Miquelão.</span></h1>
+      <h3 class="typing-text"> 
+        <span class="text1">Desenvolvedor de Software,</span>
+        <span class="text2">Apaixonado por tecnologia,</span>
+        <span class="text3">Analista de sistemas,</span>
+      </h3>
+      <p>
+        a procura da primeira oportunidade como DEV junior. Procuro diariamente aprimorar meus conhecimentos adquiridos no curso de Análise e Desenvolvimento de Sistemas e no curso de Programador Full Stack.
+      </p>
+      <div class="social-container">
+        <div class="social-icons">
+          <a href="https://www.linkedin.com/in/wilson-augusto-miquel%C3%A3o-abb894149/" class="social-icon"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://github.com/WilsonMiquelao" class="social-icon"><i class="fa-brands fa-github"></i></a>
+          <a href="https://www.instagram.com/wilsonamalves/" class="social-icon"><i class="fa-brands fa-instagram"></i></a>
         </div>
-        <div class="home-content">
-            <h1> Seja bem vindo! Meu nome é <span> Wilson Miquelão. </span></h1>
-            <h3 class="typing-text"> Sou <span></span></h3>
-            <p> a procura da primeira oportunidade como DEV junior. Procuro diariamente aprimorar meus conhecimentos e habilidades
-                que adquiri em meu diploma de Analise e Desenvolvimento de Sistemas, e no meu curso de
-                programador Full Stack em Python, HTML, CSS, Javascript e MySQL. Certificado obtido através da 
-                Infinity School, entidade Google e Microsoft partner.</p>
+        <a href="https://wa.me/5531975811320" class="btn">Entre em contato!</a>
+      </div>
+    </div>
+  </section>
 
-            <div class="social-container">
-                <div class="social-icons">
-                    <a href="https://www.linkedin.com/in/wilson-augusto-miquel%C3%A3o-abb894149/" class="social-icon"><i class="fa-brands fa-linkedin"></i></a>
-                    <a href="https://github.com/WilsonMiquelao" class="social-icon"><i class="fa-brands fa-github"></i></a>
-                    <a href="https://www.instagram.com/wilsonamalves/" class="social-icon"><i class="fa-brands fa-instagram"></i></a>
-                </div>
-                    <a href="https://wa.me/5531975811320" class="btn">Entre em contato!</a>
-                </div>
+  <!-- Seção Serviços -->
+  <section class="services" id="services">
+    <h2 class="heading">Serviços</h2>
+    <div class="service-container">
+      <div class="service-box">
+        <div class="service-info">
+          <h4>Programador Python</h4>
+          <p>
+            Projetos utilizando Python com frameworks como Django e Flask, com ênfase em código limpo e responsivo.
+          </p>
         </div>
-    </section>
-
-    <section class="services" id="services">
-        <h2 class="heading"> Serviços </h2>
-
-        <div class="service-container">
-            <div class="service-box">
-                <div class="service-info">
-                    <h4> Programador Python </h4>
-                    <p> Diversos projetos realizados na linguagem Python, como controle de estoques, cadastros
-                        de usuarios utilizando a biblioteca Django, projetos utilizando a biblioteca Flask 2.0.
-                        Funções bem definidas e responsivas, visando sempre a melhor sintaxe do codigo.
-                    </p>
-                </div>
-            </div>
-            <div class="service-box">
-                <div class="service-info">
-                    <h4> Programador Front End </h4>
-                    <p> Diversos projetos realizados na linguagem HTML, utilizando CSS, Javascript e Bootstrap.
-                        Sites responsivos, com boa estilização, codigos comentados e adaptados para mobile.
-                    </p>
-                </div>
-            </div>
-            <div class="service-box">
-                <div class="service-info">
-                    <h4> Banco de dados </h4>
-                    <p> Criação e modelagem de banco de dados utilizando a linguagem MySQL,
-                        definindo tabelas, colunas e tipos de dados. Criação de
-                        relacionamento entre tabelas (chaves primarias e estrangeiras).
-                        Além da modelagem visual utilizando o MYSQLWORKBENCH.
-                    </p>
-                </div>
-            </div>
+      </div>
+      <div class="service-box">
+        <div class="service-info">
+          <h4>Programador Front End</h4>
+          <p>
+            Desenvolvimento de sites responsivos utilizando HTML, CSS, JavaScript e Bootstrap.
+          </p>
         </div>
-    </section>
-
-    <section class="skills" id="skills">
-        <h2 class="heading"> Habilidades </h2>
-        <div class="row" ID="skillsContainer">
-            <div class="container">
-                <div class="bar">
-                    <div class="info">
-                        <img src="assets/image/skill1.png"/>
-                        <span> Python </span>
-                    </div>
-                </div>
-                <div class="bar">
-                    <div class="info">
-                        <img src="assets/image/skill2.png"/>
-                        <span> HTML </span>
-                    </div>
-                </div>
-                <div class="bar">
-                    <div class="info">
-                        <img src="assets/image/skill3.png"/>
-                        <span> CSS </span>
-                    </div>
-                </div>
-                <div class="bar">
-                    <div class="info">
-                        <img src="assets/image/skill4.png"/>
-                        <span> Javascript </span>
-                    </div>
-                </div>
-                <div class="bar">
-                    <div class="info">
-                        <img src="assets/image/skill6.png"/>
-                        <span> Bootstrap </span>
-                    </div>
-                </div>
-                <div class="bar">
-                    <div class="info">
-                        <img src="assets/image/skill5.png"/>
-                        <span> MySQL </span>
-                    </div>
-                </div>
-         </div>
+      </div>
+      <div class="service-box">
+        <div class="service-info">
+          <h4>Banco de Dados</h4>
+          <p>
+            Criação e modelagem de banco de dados em MySQL, com ênfase em integridade e desempenho.
+          </p>
         </div>
-    </section>
-<!-- WOW ANIMATION-->
-    
-    <section class="education" id="education">
-        <h2 class="heading"> Minha <span> Educação </span></h2>
-        <div class="timeline">
-            <div class="container right">
-                <div class="content">
-                    <div class="tag">
-                        <h2> Faculdade </h2>
-                    </div>
-                    <div class="decs">
-                        <p> Curso superior em Analise e Desenvolvimento de Sistemas, através da UNA/MG, nota 5 no MEC. Obtive
-                            muito conhecimento sobre lógica de programação, desenvolvimento de aplicações, 
-                            gestão de projetos de TI, segurança da informação, desenvolvimento web e administração de banco de dados
-                            na linguagem MYSQL.
-                        </p>
-                    </div>
-                </div>
-            </div>
-                <div class="container left">
-                    <div class="content">
-                        <div class="tag">
-                            <h2> Curso Full Stack </h2>
-                        </div>
-                        <div class="decs">
-                            <p> Curso realizado na INFINITY SCHOOL, entidade Google e Microsoft parner, durante 1 ano e 3 meses,
-                                onde pude aprofundar meus conhecimentos adquiridos na faculdade voltados a programação back end e front end. O back end por sua maioria na 
-                                linguagem python onde desenvolvi diversos projetos funcionais com a ferramenta, utilizando
-                                bibliotecas como Django e Flask 2.0, além de TKINTER. Pelo front end, linguagem HTML, CSS 
-                                e Javascript, onde criei sites com boa semantica e palavras fortes, além de muita responsividade.
-                                Como banco de dados, utilizei durante o curso a linguagem MYSQL, através do MYSQLWORKBENCH.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="container right">
-                    <div class="content">
-                        <div class="tag">
-                            <h2> Escola </h2>
-                        </div>
-                        <div class="decs">
-                            <p> Colégio São Francisco de Assis, escola privada e católica, onde consegui
-                                uma bolsa integral. Lá pude aprimorar o meu inglês, espanhol, e raciocíno lógico.
-                            </p>
-                        </div>
-                    </div>
-                </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção Habilidades -->
+  <section class="skills" id="skills">
+    <h2 class="heading">Habilidades</h2>
+    <div class="row">
+      <div class="bar">
+        <img src="assets/image/skill1.png" alt="Python">
+        <span>Python</span>
+      </div>
+      <div class="bar">
+        <img src="assets/image/skill2.png" alt="HTML">
+        <span>HTML</span>
+      </div>
+      <div class="bar">
+        <img src="assets/image/skill3.png" alt="CSS">
+        <span>CSS</span>
+      </div>
+      <div class="bar">
+        <img src="assets/image/skill4.png" alt="JavaScript">
+        <span>JavaScript</span>
+      </div>
+      <div class="bar">
+        <img src="assets/image/skill6.png" alt="Bootstrap">
+        <span>Bootstrap</span>
+      </div>
+      <div class="bar">
+        <img src="assets/image/skill5.png" alt="MySQL">
+        <span>MySQL</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção Educação -->
+  <section class="education" id="education">
+    <h2 class="heading">Formação</h2>
+    <div class="timeline">
+      <div class="container left">
+        <div class="content">
+          <h3>Faculdade</h3>
+          <p>
+            Curso superior em Análise e Desenvolvimento de Sistemas na UNA/MG, com ênfase em lógica, desenvolvimento web e administração de banco de dados.
+          </p>
         </div>
-    </section>
-
-    <section class="contact" id="contact">
-        <h2 class="heading"> <span> ENTRE EM CONTATO </span></h2>
-        <form action="">
-            <div class="input-box">
-                <input type="text" name="name" placeholder="Nome" required>
-            </div>
-            <div class="input-box">
-                <input type="email" name="name" placeholder="Email: exemplo@email.com" required>
-            </div>
-            <div class="input-box">
-                <input type="Number" name="name" placeholder="Numero celular" required>
-            </div>
-            <div class="input-box">
-                <input type="text" name="name" placeholder="Assunto">
-            </div>
-            <textarea name="" id="" cols="30" rows="10" placeholder="Sua mensagem"></textarea>
-            <input type="submit" value="Enviar mensagem" class="btn">
-        </form>
-    </section>
-
-    <footer class="footer">
-        <div class="social">
-            <a href="https://www.linkedin.com/in/wilson-augusto-miquel%C3%A3o-abb894149/"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="https://github.com/WilsonMiquelao"><i class="fa-brands fa-github"></i></a>
-            <a href="https://www.instagram.com/wilsonamalves/"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+      <div class="container right">
+        <div class="content">
+          <h3>Curso Full Stack</h3>
+          <p>
+            Curso na INFINITY SCHOOL (Google e Microsoft partner), onde aprofundei conhecimentos em back e front end utilizando Python, HTML, CSS, JavaScript e MySQL.
+          </p>
         </div>
-        <ul class="list">
-            <li><a href="#">FAQ</a></li>
-            <li><a href="#">Service</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">Privacy Policies</a></li>
-        </ul>
-        <p class="copyright">
-            © Wil Code | All Right Reserved
-        </p>
-    </footer>
+      </div>
+      <div class="container left">
+        <div class="content">
+          <h3>Escola</h3>
+          <p>
+            Colégio São Francisco de Assis, onde obtive uma bolsa integral e desenvolvi habilidades em idiomas e raciocínio lógico.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <script src="assets/js/script.js"></script>
+  <!-- Seção Contato -->
+  <section class="contact" id="contact">
+    <h2 class="heading">Entre em Contato</h2>
+    <form action="">
+      <input type="text" name="name" placeholder="Nome" required>
+      <input type="email" name="email" placeholder="Email: exemplo@email.com" required>
+      <input type="tel" name="telefone" placeholder="Número celular" required>
+      <input type="text" name="assunto" placeholder="Assunto">
+      <textarea name="mensagem" cols="30" rows="10" placeholder="Sua mensagem"></textarea>
+      <input type="submit" value="Enviar mensagem" class="btn">
+    </form>
+  </section>
+
+  <!-- Rodapé -->
+  <footer class="footer">
+    <div class="social">
+      <a href="https://www.linkedin.com/in/wilson-augusto-miquel%C3%A3o-abb894149/"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="https://github.com/WilsonMiquelao"><i class="fa-brands fa-github"></i></a>
+      <a href="https://www.instagram.com/wilsonamalves/"><i class="fa-brands fa-instagram"></i></a>
+    </div>
+    <ul class="list">
+      <li><a href="#">FAQ</a></li>
+      <li><a href="#">Service</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+      <li><a href="#">Privacy Policies</a></li>
+    </ul>
+    <p class="copyright">
+      © Wil Code | All Rights Reserved
+    </p>
+  </footer>
+
+  <script src="assets/js/script.js"></script>
 </body>
 </html>
+
