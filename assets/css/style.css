@@ -57,6 +57,25 @@
     color: var(--main-color);
     border-bottom: 2px solid var(--main-color);
   }
+  @media (max-width: 768px) {
+    .navbar {
+      position: fixed; /* fixa a navbar para facilitar o controle */
+      top: 60px;
+      left: 0;
+      right: 0;
+      background: var(--second-bg-color);
+      flex-direction: column;
+      padding: 1rem;
+      border-radius: 0; /* retira bordas para ocupar toda a largura */
+      display: none;
+      z-index: 1000;
+    }
+    
+    .navbar.activate {
+      display: flex;
+    }
+  }
+  
   #menu-icon {
     font-size: 2.5rem;
     color: var(--main-color);
